@@ -1,0 +1,44 @@
+$header-height: 95px;
+$sidebar-width: 232px;
+
+.main {
+  display: flex;
+  height: calc(100vh - $header-height);
+}
+
+.sidebar__area {
+  width: $sidebar-width;
+  background-color: #ffffff;
+  border-right: #eeeeee solid 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.content__area {
+  width: calc(100% - $sidebar-width);
+  background-color: aliceblue;
+  overflow-y: auto;
+}
+
+.header {
+  height: $header-height;
+  background: linear-gradient(270deg, #e66465 30%, #9198e5 70%);
+  border-bottom: #070000 solid 1px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#mySearch {
+  border-radius: 21px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  padding-left: 20px;
+  padding-right: 50px;
+  border: 1px solid #bcbcbc;
+  appearance: none;
+}
+
+::-webkit-search-cancel-button {
+  appearance: none;
+}

@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="section" id="background-box-1">
+      <h2 class="section__title">Introduction</h2>
+      <span class="title__text">The plan: There is no plan !</span>
+      <div class="section__icons">
+        The main goal of creating this page is self-developing and adding in my
+        braincells new information and skills!
+      </div>
+    </div>
+    <div class="content" id="background-box-2">
+      <span
+        >reason is to be prepared for any condition in live action (if I'll be
+        hired).There are no content specific, this page created for:</span
+      >
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Information/Source</li>
+        <li>Styles/CSS</li>
+      </ul>
+    </div>
+    <div class="section" id="background-box-3">
+      <h2 class="section_type">The Goals:</h2>
+    </div>
+    <div class="section_weight">
+      <ul class="weights">
+        <li>1. To show you what is possible and impossible.</li>
+        <li>2. To find your own style of coding and mind-thinking.</li>
+        <li>
+          3. To enjoy of course, creating and making funny stuff motivate
+          everybody.
+        </li>
+        <li>4. Still thinking... what to add or delete.</li>
+      </ul>
+    </div>
+    <div class="section" id="background-box-4">
+      <h2 class="section__title">Inputs & Forms</h2>
+      <div class="section__content">
+        <form>
+          <h3>Pure CSS dropdown:</h3>
+          <input
+            id="dropdown-example"
+            type="checkbox"
+            class="visually-hidden dropdown-input"
+            name="dropdown-checkout"
+          />
+          <label class="dropdown-button" for="dropdown-example"
+            >Toggle dropdown</label
+          >
+          <div class="dropdown-content">
+            <ul>
+              <li>first</li>
+              <li>second</li>
+              <li>third</li>
+            </ul>
+          </div>
+          <p>Cards:</p>
+          <div class="cards">
+            <input
+              checked
+              type="radio"
+              class="visually-hidden cards__input cards__input--1"
+              id="cards-item-1"
+              name="cards-radio"
+              value="1"
+            />
+            <input
+              type="radio"
+              class="visually-hidden cards__input cards__input--2"
+              id="cards-item-2"
+              name="cards-radio"
+              value="2"
+            />
+            <input
+              type="radio"
+              class="visually-hidden cards__input cards__input--3"
+              id="cards-item-3"
+              name="cards-radio"
+              value="3"
+            />
+            <input
+              type="radio"
+              class="visually-hidden cards__input cards__input--4"
+              id="cards-item-4"
+              name="cards-radio"
+              value="4"
+            />
+            <label for="cards-item-1" class="cards__button cards__button--1"
+              >Card one</label
+            >
+            <label for="cards-item-2" class="cards__button cards__button--2"
+              >Card two</label
+            >
+            <label for="cards-item-3" class="cards__button cards__button--3"
+              >Card three</label
+            >
+            <label for="cards-item-4" class="cards__button cards__button--4"
+              >Card four</label
+            >
+          </div>
+          <h3>Custom Checkbox</h3>
+          <label class="checkbox" for="custom-checkbox" id="background-box-5">
+            <input
+              class="checkbox__input visually-hidden"
+              type="checkbox"
+              name="custom-checkbox"
+              id="custom-checkbox"
+            />
+            <div class="checkbox__box">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+              >
+                <path
+                  d="M3.556 14.222l-3.556 3.556 10.667 10.667 21.333-21.333-3.556-3.556-17.778 17.778-7.111-7.111z"
+                ></path>
+              </svg>
+            </div>
+            <span class="checkbox__label">Checkbox with Custom Style </span>
+          </label>
+          <h3>Simple Select</h3>
+          <div class="simple-select">
+            <select name="simple-select" id="simple-select">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <svg
+              class="simple-select__arrow"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="32"
+              viewBox="0 0 28 32"
+            >
+              <path
+                d="M12.939 23.842l-12.146-12.146c-0.586-0.586-0.586-1.536 0-2.121l1.417-1.417c0.585-0.585 1.533-0.586 2.119-0.002l9.672 9.626 9.672-9.626c0.586-0.583 1.534-0.582 2.119 0.002l1.417 1.417c0.586 0.586 0.586 1.536 0 2.121l-12.146 12.146c-0.586 0.586-1.536 0.586-2.121 0z"
+              ></path>
+            </svg>
+          </div>
+          <h3>Advanced Select</h3>
+          <select class="advanced-select" name="advanced-select">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <h3 id="background-box-6">bootstrap form</h3>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <form>
+            <legend>Simple Sign in (without styles)</legend>
+            <div class="simple-sign">
+              <label for="loginone">Login</label>
+              <input
+                type="text"
+                name="login"
+                placeholder="write here buddy"
+                id="loginone"
+              />
+            </div>
+            <div class="simple-sign">
+              <label for="password1">Password</label>
+              <input type="password" name="password" id="password1" />
+            </div>
+            <div class="simple-sign">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+            <div>
+              <label for="Remember1">Remember me</label>
+              <input
+                type="checkbox"
+                name="Remember me"
+                value="Remember me"
+                id="Remember1"
+              />
+            </div>
+          </form>
+        </form>
+      </div>
+    </div>
+    <div class="section" id="animations">
+      <h2 class="section__title" id="background-box-7">
+        Animations & Transition
+      </h2>
+      <h3 class="section__specification">
+        Animations: (mouseover to the gray area to stop)
+      </h3>
+      <div class="section__content">
+        <div class="animation-area">
+          <div class="animation-child">
+            <img src="images/memworkone.png" alt="" width="250" height="250" />
+          </div>
+          <img
+            class="damage"
+            src="images/memworktwo.png"
+            alt=""
+            width="250"
+            height="250"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="section" id="background-box-8">
+      <h3 class="section__specification">
+        Transition: (mouseover to the gray area)
+      </h3>
+      <div class="section__content">
+        <div class="transition-area">
+          <div class="transition-child">
+            <img src="images/front.png" alt="" width="180" height="180" />
+          </div>
+          <div class="transition-second-child">
+            <img src="images/backend.png" alt="" width="180" height="180" />
+          </div>
+          <img
+            class="memone"
+            src="images/draketwo.jpg"
+            alt=""
+            width="180"
+            height="180"
+          />
+          <div class="transition-third-child">
+            <img src="images/WeekEnd.png" alt="" width="180" height="180" />
+          </div>
+          <img
+            class="memtwo"
+            src="images/drake.jpg"
+            alt=""
+            width="180"
+            height="180"
+          />
+          <div class="transition-fourth-child">
+            <img src="images/bullet.png" alt="" width="70" height="70" />
+          </div>
+          <img
+            class="neo"
+            src="images/neo.jpg"
+            alt=""
+            width="180"
+            height="180"
+          />
+          <div class="transition-fifth-child">
+            <img src="images/html.png" alt="" width="180" height="180" />
+          </div>
+          <img
+            class="htmlcss"
+            src="images/html+css.png"
+            alt=""
+            width="180"
+            height="180"
+          />
+          <div class="transition-sixth-child">
+            <img src="images/frontend.png" alt="" width="180" height="180" />
+          </div>
+          <img
+            class="fans"
+            src="images/backendtwo.png"
+            alt=""
+            width="180"
+            height="180"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="section" id="background-box-9">
+      <h2 class="section__title">Transform</h2>
+      <p>(mouseover to the images)</p>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 transform-action-area transform-action-area--1">
+              <div class="transform-element transform--1">
+                Squished sponge-bob
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--2">
+              <div class="transform-element transform--2">Nasty text</div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--3">
+              <div class="transform-element transform--3">
+                With great power comes great code !
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--4">
+              <div class="transform-element transform--4">
+                Transform: Matrix
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--5">
+              <div class="transform-element transform--5">
+                I still watching you
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--6">
+              <div class="transform-element transform--6">
+                Hide in the smaller box
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--7">
+              <div class="transform-element transform--7">
+                After one beer be like:
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--8">
+              <div class="transform-element transform--8">
+                This could be your ad
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--9">
+              <div class="transform-element transform--9">Or this</div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--10">
+              <div class="transform-element transform--10">
+                Or something like this
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--11">
+              <div class="transform-element transform--11">
+                Smoothly watching you
+              </div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--12">
+              <div class="transform-element transform--12">Just shaking</div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--13">
+              <div class="transform-element transform--13">choose</div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--14">
+              <div class="transform-element transform--14"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--15">
+              <div class="transform-element transform--15"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--16">
+              <div class="transform-element transform--16"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--17">
+              <div class="transform-element transform--17"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--18">
+              <div class="transform-element transform--18"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--19">
+              <div class="transform-element transform--19"></div>
+            </div>
+            <div class="col-4 transform-action-area transform-action-area--20">
+              <div class="transform-element transform--20">Watch out!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="background-box-10">
+      <h2 class="section__title">Ratio Box</h2>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="ratio-box">
+                <img srcset="images//filter.jpg" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3">
+                <img srcset="images//filter.jpg" />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9">
+                <img srcset="images//filter.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="background-box-11">
+      <h2 class="section__title">Filters</h2>
+      <p>(mouseover to the images)</p>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-box--grayscale">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-box--blur">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-box--hue-rotate">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box filter-box--drop-shadow">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-box--brightness">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-box--contrast">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-box--invert">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-box--opacity">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-box--saturate">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-box--sepia">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-mix--grayscale">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-mix--blur">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-mix--rotate">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-mix--shadow">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-mix--brightness">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-mix--contrast">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-mix--invert">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 filter-mix--opacity">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="filter-box ratio-box filter-mix--saturate">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 filter-mix--sepia">
+                <img
+                  srcset="images/filter.jpg 1x, images/filter.jpg 2x"
+                  src="images/filter.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="gradient">
+      <h2 class="section__title" id="background-box-12">Gradient</h2>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--1"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--2"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--3"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--4"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--5"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--6"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--7"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--8"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--9"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--10"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--11"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--12"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--13"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--14"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--15"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--16"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--17"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--16-9 gradient-box--18"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box gradient-box--19"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="ratio-box ratio-box--4-3 gradient-box--20"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="advanced">
+      <h2 class="section__title" id="background-box-13">Advanced Styles</h2>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <p>Names:</p>
+            <div class="col-lg-4">
+              <p class="page-name-1">KENDO</p>
+            </div>
+            <div class="col-lg-4">
+              <div class="page_container">
+                <p class="page-name-2">
+                  HELL IS EMPTY AND ALL THE DEVILS ARE HERE
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <p class="page-name-3">JUDO</p>
+            </div>
+            <p>Buttons:</p>
+            <div class="col-lg-4">
+              <div class="button-container" id="background-box-14">
+                <button class="glowing-button">Mouse over me</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="button-container">
+                <button class="button-rainbow" role="button">
+                  Rainbow glow
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="button-container">
+                <span class="btn-classic">mouseover</span>
+              </div>
+            </div>
+            <p id="background-box-15">Log's:</p>
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-8 login-box"> 
+            <div class="col-lg-12 login-title">
+                Log In 
+            </div>
+            <div class="col-lg-12 login-form">
+              <form>
+                <div class="form-group">
+                  <label class="form-control-label">USERNAME</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label class="form-control-label">PASSWORD</label>
+                  <input type="password" class="form-control">
+                </div>
+                <div class="col-lg-12">
+                  <div class="login-button">
+                    <button type="submit" class="btn-outline-primary">LOGIN</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="container_logtwo">
+              <div class="screen">
+                <div class="screen__content">
+                  <form class="login">
+                    <div class="login__field">
+                      <i class="login__icon ">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
+                          <path d="M10 6c0-3.314 2.686-6 6-6s6 2.686 6 6c0 3.314-2.686 6-6 6s-6-2.686-6-6zM24.002 14h-1.107l-6.222 12.633 2.327-11.633-3-3-3 3 2.327 11.633-6.222-12.633h-1.107c-3.998 0-3.998 2.687-3.998 6v10h24v-10c0-3.313 0-6-3.998-6z"></path>
+                        </svg>
+                      </i>
+                      <input type="text" class="login__input" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                      <i class="login__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
+                          <path d="M18.5 14h-0.5v-6c0-3.308-2.692-6-6-6h-4c-3.308 0-6 2.692-6 6v6h-0.5c-0.825 0-1.5 0.675-1.5 1.5v15c0 0.825 0.675 1.5 1.5 1.5h17c0.825 0 1.5-0.675 1.5-1.5v-15c0-0.825-0.675-1.5-1.5-1.5zM6 8c0-1.103 0.897-2 2-2h4c1.103 0 2 0.897 2 2v6h-8v-6z"></path>
+                        </svg>
+                      </i>
+                      <input type="password" class="login__input" placeholder="Password">
+                    </div>
+                    <button class="button login__submit">
+                      <span class="button__text">Log In Now</span>
+                      <i class="button__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32">
+                          <path d="M16 0c-8.711 0-15.796 6.961-15.995 15.624 0.185-7.558 5.932-13.624 12.995-13.624 7.18 0 13 6.268 13 14 0 1.657 1.343 3 3 3s3-1.343 3-3c0-8.837-7.163-16-16-16zM16 32c8.711 0 15.796-6.961 15.995-15.624-0.185 7.558-5.932 13.624-12.995 13.624-7.18 0-13-6.268-13-14 0-1.657-1.343-3-3-3s-3 1.343-3 3c0 8.837 7.163 16 16 16z"></path>
+                        </svg>  
+                      </i>
+                    </button>				
+                  </form>
+                  <div class="social-login">
+                    <h3>log in by</h3>
+                    <div class="social-icons">
+                      <a href="#" class="social-login__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
+                        </svg>
+                      </a>
+                      <a href="#" class="social-login__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+                          <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+                          <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+                        </svg>
+                      </a>
+                      <a href="#" class="social-login__icon">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="screen__background">
+                  <span class="screen__background__shape screen__background__shape4"></span>
+                  <span class="screen__background__shape screen__background__shape3"></span>		
+                  <span class="screen__background__shape screen__background__shape2"></span>
+                  <span class="screen__background__shape screen__background__shape1"></span>
+                </div>		
+              </div>
+            </div>
+            <div class="container-logthird">
+              <div class="form">
+                <div class="username">
+                  <input class='input-style' type="text" placeholder="USERNAME"/>
+                </div>
+                <div class="password">
+                  <input class='input-style' type="password" placeholder="PASSWORD"/>
+                </div>
+                <div class="login-third">
+                  <span>Log In</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="advanced">
+      <h2 class="section__title" id="background-box-16">Info & Inspiration</h2>
+      <div class="section__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="32" viewBox="0 0 80 32">
+                <path d="M10.75 5.294c0.007-0.027 0.011-0.046 0.012-0.056l0.033-0.236-1.48-0.008c-1.337-0.008-1.746 0-1.783 0.034-0.018 0.016-0.479 1.77-1.302 4.946-0.392 1.515-0.723 2.725-0.734 2.689s-0.481-1.766-1.044-3.843c-0.563-2.078-1.034-3.789-1.048-3.803-0.019-0.019-1.812-0.028-3.263-0.016-0.21 0.002-0.327-0.41 1.876 6.598 0.305 0.97 0.762 2.344 1.015 3.052 0.292 0.817 0.5 1.448 0.642 1.974 0.251 1.002 0.26 1.63 0.205 2.363-0.063 0.847-0.073 6.826-0.011 6.926 0.047 0.077 2.851 0.112 3.116 0.040 0.042-0.012 0.071-0.053 0.090-0.279 0.066-0.194 0.071-0.968 0.071-4.18v-4.103l0.179-0.566c0.117-0.37 0.413-1.344 0.656-2.163s0.538-1.801 0.654-2.18c1.057-3.447 2.067-6.838 2.094-7.032l0.022-0.158z"></path>
+                <path d="M26.441 10.27l-0.001 0.214-0.033 0-0.019 5.906-0.018 5.726-0.458 0.467c-0.513 0.522-0.925 0.722-1.297 0.629-0.405-0.102-0.395 0.056-0.429-6.712l-0.031-6.23h-2.947v0.214h-0.034v6.759c0 7.242-0 7.237 0.367 7.965 0.293 0.579 0.719 0.861 1.45 0.958h0c0.962 0.128 2-0.308 2.962-1.244l0.418-0.407v0.701c0 0.606 0.017 0.706 0.127 0.737 0.18 0.050 2.412 0.053 2.653 0.004l0.2-0.041v-0.207l0.034-0.007v-15.472l-2.944 0.039z"></path>
+                <path d="M18.965 13.323c-0.279-1.198-0.802-2.004-1.664-2.561-1.353-0.875-2.897-0.967-4.331-0.259-1.045 0.516-1.717 1.372-2.065 2.628-0.041 0.15-0.072 0.275-0.095 0.463-0.088 0.443-0.099 1.105-0.122 4.186-0.035 4.748 0.019 5.313 0.614 6.391 0.583 1.058 1.794 1.833 3.112 1.993 0.397 0.048 1.201-0.027 1.663-0.155 1.051-0.291 2.058-1.122 2.504-2.065 0.192-0.407 0.309-0.691 0.379-1.208 0.13-0.707 0.14-1.849 0.14-4.762-0-3.715-0.012-4.121-0.136-4.651zM15.604 23c-0.247 0.188-0.679 0.27-1.031 0.195-0.271-0.058-0.636-0.482-0.748-0.869-0.14-0.482-0.151-7.187-0.030-8.502 0.199-0.658 0.756-1.002 1.364-0.838 0.474 0.128 0.716 0.424 0.854 1.046 0.103 0.461 0.115 1.035 0.093 4.414-0.014 2.241-0.022 3.336-0.096 3.924-0.074 0.371-0.197 0.47-0.407 0.63z"></path>
+                <path d="M71.887 16.692h1.424l-0.023-1.29c-0.022-1.183-0.039-1.319-0.198-1.64-0.249-0.507-0.617-0.731-1.201-0.731-0.701 0-1.146 0.339-1.356 1.036-0.089 0.296-0.183 2.334-0.116 2.51 0.038 0.098 0.241 0.116 1.469 0.116z"></path>
+                <path d="M62.369 13.757c-0.19-0.383-0.543-0.571-0.954-0.556-0.319 0.011-0.674 0.146-1.015 0.407l-0.254 0.193v9.269l0.254 0.193c0.576 0.439 1.209 0.532 1.644 0.241 0.172-0.115 0.285-0.274 0.372-0.527 0.114-0.329 0.124-0.75 0.109-4.649-0.015-4.064-0.024-4.303-0.157-4.57z"></path>
+                <path d="M80.027 9.582c-0.284-3.401-0.509-4.505-1.211-5.923-0.929-1.878-2.272-2.868-4.184-3.086-1.478-0.168-7.041-0.405-12.189-0.52-8.912-0.198-23.564 0.183-25.436 0.662-0.865 0.221-1.513 0.597-2.188 1.269-1.183 1.177-1.887 2.865-2.17 5.2-0.647 5.331-0.66 11.773-0.037 17.297 0.268 2.376 0.82 3.92 1.857 5.192 0.647 0.794 1.761 1.469 2.758 1.67 0.7 0.141 4.201 0.337 9.3 0.521 0.76 0.027 2.771 0.074 4.47 0.105 3.541 0.063 10.051 0.026 13.772-0.079 2.504-0.070 7.069-0.255 7.922-0.321 0.24-0.019 0.796-0.054 1.236-0.079 1.477-0.083 2.417-0.393 3.3-1.086 1.142-0.897 2.027-2.556 2.4-4.501 0.354-1.84 0.59-5.118 0.638-8.839 0.040-3.109-0.013-4.787-0.238-7.482zM44.54 8.35l-1.656 0.020-0.073 17.661-1.435 0.018c-1.11 0.015-1.447-0.001-1.474-0.073-0.019-0.051-0.042-4.032-0.052-8.849l-0.018-8.758-3.234-0.041v-2.76l9.557 0.039 0.041 2.721-1.656 0.020zM54.694 18.472v7.595h-2.616v-0.799c0-0.601-0.023-0.799-0.093-0.799-0.051 0-0.288 0.198-0.527 0.441-0.517 0.526-1.13 0.949-1.653 1.145-1.083 0.405-2.112 0.169-2.551-0.586-0.401-0.691-0.409-0.845-0.409-8.010v-6.58h2.614l0.020 6.196c0.019 6.088 0.022 6.2 0.168 6.448 0.193 0.329 0.488 0.417 0.956 0.288 0.276-0.076 0.464-0.21 0.911-0.654l0.563-0.561v-11.717h2.616v7.595zM64.899 24.982c-0.23 0.513-0.744 1.016-1.165 1.14-1.099 0.324-1.98 0.060-2.998-0.897-0.316-0.297-0.61-0.538-0.654-0.538-0.053 0-0.082 0.233-0.082 0.69v0.69h-2.616v-20.495h2.616v3.343c0 1.839 0.025 3.343 0.054 3.343s0.306-0.244 0.613-0.541c0.707-0.683 1.298-0.981 2.049-1.038 1.338-0.101 2.135 0.587 2.501 2.16 0.114 0.491 0.125 1.051 0.125 5.596-0 5.537-0.001 5.56-0.443 6.546zM75.968 21.943c-0.023 0.57-0.092 1.223-0.154 1.454-0.364 1.349-1.332 2.304-2.732 2.696-1.885 0.527-3.96-0.337-4.788-1.994-0.465-0.93-0.481-1.116-0.481-5.662 0-3.707 0.013-4.162 0.132-4.667 0.336-1.431 1.168-2.357 2.578-2.871 0.408-0.149 0.835-0.225 1.261-0.234 1.521-0.031 3.031 0.787 3.663 2.119 0.427 0.899 0.48 1.283 0.522 3.816l0.039 2.271-5.578 0.039-0.020 1.526c-0.029 2.153 0.116 2.815 0.697 3.207 0.489 0.329 1.24 0.305 1.649-0.055 0.383-0.337 0.491-0.698 0.529-1.753l0.034-0.927h2.694l-0.043 1.036z"></path>
+              </svg>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/HxQYucaou-I?si=jy7o6iERz96uEt1G"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-2 source-svg">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M19.993 14.872h1.382l-1.594 7.068-2.073-9.938h-3.33l-2.41 9.938-1.807-9.938h-3.481l3.534 15.996h3.401l2.384-9.46 2.133 9.46h3.136l4.051-15.996h-5.326v2.87z"></path>
+                <path d="M28.681 7.159c-0.694-0.947-1.662-2.053-2.724-3.116s-2.169-2.030-3.116-2.724c-1.612-1.182-2.393-1.319-2.841-1.319h-15.5c-1.378 0-2.5 1.121-2.5 2.5v27c0 1.378 1.121 2.5 2.5 2.5h23c1.378 0 2.5-1.122 2.5-2.5v-19.5c0-0.448-0.137-1.23-1.319-2.841v0zM24.543 5.457c0.959 0.959 1.712 1.825 2.268 2.543h-4.811v-4.811c0.718 0.556 1.584 1.309 2.543 2.268v0zM28 29.5c0 0.271-0.229 0.5-0.5 0.5h-23c-0.271 0-0.5-0.229-0.5-0.5v-27c0-0.271 0.229-0.5 0.5-0.5 0 0 15.499-0 15.5 0v7c0 0.552 0.448 1 1 1h7v19.5z"></path>
+              </svg>
+              3School https://www.w3schools.com/css/default.asp
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M29 13c-0.888 0-1.686 0.386-2.236 1h-5.936l4.197-4.197c0.822 0.046 1.66-0.245 2.288-0.874 1.172-1.172 1.172-3.071 0-4.243s-3.071-1.172-4.243 0c-0.628 0.628-0.919 1.466-0.874 2.288l-4.197 4.197v-5.936c0.614-0.549 1-1.347 1-2.236 0-1.657-1.343-3-3-3s-3 1.343-3 3c0 0.888 0.386 1.686 1 2.236v5.936l-4.197-4.197c0.045-0.822-0.245-1.66-0.874-2.288-1.172-1.172-3.071-1.172-4.243 0s-1.172 3.071 0 4.243c0.628 0.628 1.466 0.919 2.288 0.874l4.197 4.197h-5.936c-0.549-0.614-1.347-1-2.236-1-1.657 0-3 1.343-3 3s1.343 3 3 3c0.888 0 1.686-0.386 2.236-1h5.936l-4.197 4.197c-0.822-0.046-1.66 0.245-2.288 0.874-1.172 1.172-1.172 3.071 0 4.243s3.071 1.172 4.243 0c0.628-0.628 0.919-1.466 0.874-2.288l4.197-4.197v5.936c-0.614 0.549-1 1.347-1 2.235 0 1.657 1.343 3 3 3s3-1.343 3-3c0-0.888-0.386-1.686-1-2.236v-5.936l4.197 4.197c-0.046 0.822 0.245 1.66 0.874 2.288 1.172 1.172 3.071 1.172 4.243 0s1.172-3.071 0-4.243c-0.628-0.628-1.466-0.919-2.288-0.874l-4.197-4.197h5.936c0.549 0.614 1.347 1 2.235 1 1.657 0 3-1.343 3-3s-1.343-3-3-3z"></path>
+              </svg>
+              CSS-Tricks https://css-tricks.com/almanac/properties/t/transform
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M30.148 5.588c-2.934-3.42-7.288-5.588-12.148-5.588-8.837 0-16 7.163-16 16s7.163 16 16 16c4.86 0 9.213-2.167 12.148-5.588l-10.148-10.412 10.148-10.412zM22 3.769c1.232 0 2.231 0.999 2.231 2.231s-0.999 2.231-2.231 2.231-2.231-0.999-2.231-2.231c0-1.232 0.999-2.231 2.231-2.231z"></path>
+              </svg>
+              Froggy-game https://flexboxfroggy.com/#ru
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M32 14h-3.154c-0.864-5.57-5.276-9.982-10.846-10.846v-3.154h-4v3.154c-5.57 0.864-9.982 5.276-10.846 10.846h-3.154v4h3.154c0.864 5.57 5.276 9.982 10.846 10.846v3.154h4v-3.154c5.57-0.864 9.982-5.276 10.846-10.846h3.154v-4zM24.776 14h-3.118c-0.603-1.705-1.953-3.056-3.658-3.658v-3.118c3.36 0.765 6.010 3.416 6.776 6.776zM16 18c-1.105 0-2-0.895-2-2s0.895-2 2-2c1.105 0 2 0.895 2 2s-0.895 2-2 2zM14 7.224v3.118c-1.705 0.603-3.056 1.953-3.658 3.658h-3.118c0.765-3.36 3.416-6.010 6.776-6.776zM7.224 18h3.118c0.603 1.705 1.953 3.056 3.658 3.658v3.118c-3.36-0.765-6.010-3.416-6.776-6.776zM18 24.776v-3.118c1.705-0.603 3.056-1.953 3.658-3.658h3.118c-0.765 3.36-3.416 6.010-6.776 6.776z"></path>
+              </svg>
+              Flex-box Defense http://www.flexboxdefense.com
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path d="M15.499 32c-1.543 0-2.847-0.45-3.878-1.338-1.038-0.894-1.565-1.939-1.565-3.104 0-0.567 0.206-1.055 0.613-1.452 0.414-0.404 0.931-0.617 1.495-0.617 0.563 0 1.069 0.2 1.463 0.579 0.39 0.374 0.587 0.869 0.587 1.472 0 0.354-0.058 0.744-0.172 1.161-0.113 0.412-0.137 0.623-0.137 0.728 0 0.115 0.029 0.252 0.243 0.399 0.399 0.276 0.877 0.409 1.465 0.409 0.706 0 1.335-0.246 1.924-0.751 0.581-0.498 0.863-1.010 0.863-1.564 0-0.617-0.165-1.151-0.504-1.633-0.573-0.805-1.652-1.749-3.207-2.802-2.496-1.67-4.158-3.118-5.081-4.422-0.715-1.021-1.077-2.122-1.077-3.272 0-1.158 0.379-2.311 1.128-3.426 0.641-0.955 1.588-1.816 2.82-2.567-0.659-0.709-1.153-1.377-1.472-1.99-0.402-0.774-0.606-1.574-0.606-2.379 0-1.494 0.591-2.786 1.756-3.84s2.621-1.59 4.323-1.59c1.565 0 2.881 0.44 3.912 1.308 1.041 0.878 1.569 1.903 1.569 3.048 0 0.583-0.218 1.105-0.649 1.552l-0.009 0.009c-0.249 0.248-0.707 0.543-1.47 0.543-0.598 0-1.123-0.196-1.517-0.567-0.392-0.369-0.592-0.81-0.592-1.311 0-0.217 0.053-0.544 0.167-1.031 0.056-0.23 0.083-0.442 0.083-0.633 0-0.323-0.116-0.571-0.366-0.78-0.259-0.217-0.628-0.322-1.129-0.322-0.777 0-1.415 0.236-1.95 0.722-0.537 0.488-0.798 1.065-0.798 1.766 0 0.63 0.143 1.149 0.424 1.543 0.535 0.748 1.462 1.556 2.757 2.401 2.63 1.706 4.466 3.271 5.454 4.651 0.73 1.035 1.099 2.136 1.099 3.275 0 1.144-0.371 2.297-1.104 3.427-0.631 0.974-1.585 1.852-2.84 2.616 0.693 0.733 1.182 1.376 1.486 1.954 0.378 0.718 0.569 1.502 0.569 2.329 0 1.552-0.591 2.871-1.758 3.919s-2.621 1.58-4.322 1.58zM13.95 11.136c-1.507 0.905-2.241 1.943-2.241 3.166 0 0.711 0.203 1.348 0.621 1.946 0.623 0.873 1.852 1.939 3.65 3.165 0.761 0.518 1.449 1.022 2.050 1.502 1.533-0.922 2.28-1.949 2.28-3.131 0-0.644-0.254-1.337-0.756-2.060-0.525-0.756-1.652-1.744-3.348-2.935-0.885-0.611-1.642-1.167-2.255-1.654z"></path>
+              </svg>
+              SASS https://sass-lang.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

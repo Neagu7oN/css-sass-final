@@ -1,0 +1,27 @@
+/* Header Icons */
+.icons {
+  align-items: center;
+  display: flex;
+}
+
+a.js-change-resolution {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.svg_shadows_red:hover {
+  filter: drop-shadow(10px -5px 1px blue);
+}
+
+.svg_shadows_brown:hover {
+  filter: drop-shadow(10px -5px 1px rgb(241, 234, 9));
+}
+
+.svg_shadows_blue:hover {
+  filter: drop-shadow(10px -5px 1px rgb(228, 10, 10));
+}
+
+.svg_shadows_green:hover {
+  filter: drop-shadow(10px -5px 1px rgb(0, 166, 0));
+}

@@ -1,0 +1,75 @@
+@keyframes john {
+  15% {
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: calc(100% - 250px);
+  }
+  35% {
+    left: calc(100% - 250px);
+    top: 70px;
+  }
+  45% {
+    left: 0;
+  }
+  55% {
+    right: calc(100% - 250px);
+    top: 70px;
+  }
+  65% {
+    top: 140px;
+    right: calc(100% - 250px);
+  }
+  75% {
+    left: 0;
+  }
+  90% {
+    left: calc(100% - 250px);
+    right: 0;
+  }
+  100% {
+    top: 140px;
+    left: calc(100% - 250px);
+  }
+}
+
+.section__specification {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.animation-area {
+  background-color: #ccc;
+  position: relative;
+
+  &::after {
+    display: block;
+    padding-top: 30%;
+    content: "";
+  }
+
+  &:hover {
+    .animation-child {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.animation-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: john;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+img.damage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

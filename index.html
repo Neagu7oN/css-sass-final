@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Advanced</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+  </head>
+  <body>
+    <header class="header">
+      <input type="search" id="mySearch" placeholder="Search the docs.." />
+      <div class="icons">
+        <a href="#" class="js-change-resolution" data-resolution="350px">
+          <svg
+            class="svg_shadows_red"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M23 0h-14c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 1.5h8v1h-8v-1zM16 30c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM24 24h-16v-20h16v20z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#" class="js-change-resolution" data-resolution="800px">
+          <svg
+            class="svg_shadows_brown"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M25 0h-20c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h20c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM15 31c-0.552 0-1-0.448-1-1s0.448-1 1-1 1 0.448 1 1-0.448 1-1 1zM24 28h-18v-24h18v24z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#" class="js-change-resolution" data-resolution="1300px">
+          <svg
+            class="svg_shadows_blue"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M28 22v-16c0-1.1-0.9-2-2-2h-20c-1.1 0-2 0.9-2 2v16h-4v6h32v-6h-4zM20 26h-8v-2h8v2zM26 22h-20v-15.996c0.001-0.001 0.002-0.003 0.004-0.004h19.993c0.001 0.001 0.003 0.002 0.004 0.004v15.996z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#" class="js-change-resolution" data-resolution="100%">
+          <svg
+            class="svg_shadows_green"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M0 2v20h32v-20h-32zM30 20h-28v-16h28v16zM21 24h-10l-1 4-2 2h16l-2-2z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="sidebar__area">
+        <input
+          id="dropdown-introduction"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden introduction-input"
+          name="dropdown-checkout"
+          value="1"
+        />
+        <label class="introduction-button" for="dropdown-introduction"
+          >Introduction</label
+        >
+        <div class="introduction-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-1"
+                >What's the plan?</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-2"
+                >Reason of !</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-3"
+                >The Goals</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input
+          id="dropdown-visualstyle"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden visualstyle-input"
+          name="dropdown-checkout"
+          value="2"
+        />
+        <label class="visualstyle-button" for="dropdown-visualstyle"
+          >Inputs & Forms</label
+        >
+        <div class="visualstyle-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-4"
+                >Toggle's</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-5"
+                >Checkbox & Select</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-6"
+                >Forms & login Menu</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input
+          id="dropdown-voice"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden voice-input"
+          name="dropdown-checkout"
+          value="3"
+        />
+        <label class="voice-button" for="dropdown-voice"
+          >Animations & Transition</label
+        >
+        <div class="voice-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-7"
+                >Animations</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-8"
+                >Transition</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input
+          id="dropdown-components"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden components-input"
+          name="dropdown-checkout"
+          value="4"
+        />
+        <label class="components-button" for="dropdown-components"
+          >Transform / Ratio Box / Filters / Gradient</label
+        >
+        <div class="components-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-9"
+                >Transform</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-10"
+                >Ratio Box</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-11"
+                >Filters</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-12"
+                >Gradient</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input
+          id="dropdown-utility"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden utility-input"
+          name="dropdown-checkout"
+          value="5"
+        />
+        <label class="utility-button" for="dropdown-utility"
+          >Advanced stylish interface
+        </label>
+        <div class="utility-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-13"
+                >Page names</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-14"
+                >Buttons</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-15"
+                >Log menu</a
+              >
+            </li>
+          </ul>
+        </div>
+        <input
+          id="dropdown-resources"
+          type="checkbox"
+          type="radio"
+          class="visually-hidden resources-input"
+          name="dropdown-checkout"
+          value="6"
+        />
+        <label class="resources-button" for="dropdown-resources"
+          >Resources</label
+        >
+        <div class="resources-content">
+          <ul>
+            <li>
+              <a
+                class="js-navigate-iframe navigate-iframe"
+                href="#background-box-16"
+                >Ideas and info</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <content class="content__area">
+        <div class="content-area-inner">
+          <iframe
+            src="styleguide.html"
+            class="js-main-iframe main-iframe"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </content>
+    </main>
+    <script src="js/styleguide.js"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+/* The Goals section & intro content */
+.section {
+  margin-left: 51px;
+  margin-right: 150px;
+  margin-top: 43px;
+}
+
+.content {
+  margin-top: 49px;
+  border-left: 2px solid #eeeeee;
+  margin-left: 51px;
+  margin-bottom: 75px;
+}
+
+.content ul {
+  margin-left: 18px;
+  margin-right: 150px;
+  color: #0d3268;
+}
+
+.content span {
+  color: #aeaeae;
+  margin-left: 18px;
+}
+
+.section_weight {
+  margin-left: 51px;
+  margin-right: 150px;
+  background-color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  padding-left: 29px;
+  padding-top: 42px;
+  color: #333333;
+}
+
+.weights li:nth-child(1) {
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  font-weight: 600;
+}
+
+.weights li:nth-child(2) {
+  font-weight: 600;
+  font-size: 2.125rem;
+  line-height: 2.5625rem;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  text-align: justify;
+}
+
+.weights li:nth-child(3) {
+  padding-bottom: 21px;
+  font-size: 2.125rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.content span::before {
+  content: "The";
+  color: red;
+  font-size: 80px;
+  font-style: italic;
+  opacity: 0.5;
+  letter-spacing: 20px;
+}
+
+.weights li:nth-child(4) {
+  padding-bottom: 33px;
+  font-size: 2.125rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.content li:nth-child(odd) {
+  padding-top: 20px;
+}
+
+.content li:nth-child(even) {
+  padding-top: 20px;
+}
+
+.title__text {
+  color: red;
+  font-weight: 10px;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.section_type {
+  font-size: 2.125rem;
+  color: #333333;
+}
+
+.section__icons {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin-top: 11px;
+  margin-bottom: 24px;
+  padding-top: 35px;
+  font-size: 1.125rem;
+}
+
+.section__content {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin-top: 11px;
+  margin-bottom: 24px;
+}
+
+.section:nth-child(1) {
+  margin-top: 43px;
+}
+
+/* for all section titles */
+.section__title {
+  padding-top: 10px;
+  font-size: 3.5rem;
+  color: #333333;
+  border-top: solid 2px #0d3268;
+  margin-bottom: 15px;
+}

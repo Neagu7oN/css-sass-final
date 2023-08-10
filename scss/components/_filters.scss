@@ -1,0 +1,167 @@
+.filter-box--grayscale {
+  &:hover {
+    img {
+      filter: grayscale(100%);
+    }
+  }
+}
+
+.filter-box--blur {
+  &:hover {
+    img {
+      filter: blur(7px);
+    }
+  }
+}
+
+.filter-box--hue-rotate {
+  &:hover {
+    img {
+      filter: hue-rotate(77deg);
+    }
+  }
+}
+
+.filter-box--drop-shadow {
+  &:hover {
+    img {
+      filter: drop-shadow(0px 0px 10px red);
+    }
+  }
+}
+
+.filter-box--brightness {
+  &:hover {
+    img {
+      filter: brightness(2);
+    }
+  }
+}
+
+.filter-box--contrast {
+  &:hover {
+    img {
+      filter: contrast(50%);
+    }
+  }
+}
+
+.filter-box--invert {
+  &:hover {
+    img {
+      filter: invert(77%);
+    }
+  }
+}
+
+.filter-box--opacity {
+  &:hover {
+    img {
+      filter: opacity(30%);
+    }
+  }
+}
+
+.filter-box--saturate {
+  &:hover {
+    img {
+      filter: saturate(50%);
+    }
+  }
+}
+
+.filter-box--sepia {
+  &:hover {
+    img {
+      filter: sepia(70%);
+    }
+  }
+}
+
+.filter-mix--grayscale {
+  &:hover {
+    img {
+      filter: grayscale(77%) drop-shadow(10px 0px 17px green);
+    }
+  }
+}
+
+.filter-mix--blur {
+  &:hover {
+    img {
+      filter: blur(10px) sepia(70%);
+    }
+  }
+}
+
+.filter-mix--rotate {
+  &:hover {
+    img {
+      filter: hue-rotate(50deg) contrast(70%) drop-shadow(14px 0px 20px red);
+    }
+  }
+}
+
+.filter-mix--shadow {
+  &:hover {
+    img {
+      filter: drop-shadow(14px 0px 20px red) hue-rotate(542deg) blur(1px);
+    }
+  }
+}
+
+.filter-mix--brightness {
+  &:hover {
+    img {
+      filter: brightness(2) hue-rotate(240deg);
+    }
+  }
+}
+
+.filter-mix--contrast {
+  &:hover {
+    img {
+      filter: opacity(37%) grayscale(111%);
+    }
+  }
+}
+
+.filter-mix--invert {
+  &:hover {
+    img {
+      filter: invert(100%) drop-shadow(20px 13px 14px purple) blur(1px);
+    }
+  }
+}
+
+.filter-mix--opacity {
+  &:hover {
+    img {
+      filter: opacity(30%) contrast(40%) drop-shadow(20px 20px 20px yellow);
+    }
+  }
+}
+
+.filter-mix--saturate {
+  &:hover {
+    img {
+      filter: saturate(70%) hue-rotate(40deg);
+    }
+  }
+}
+
+.filter-mix--sepia {
+  &:hover {
+    img {
+      filter: sepia(4%) drop-shadow(-10px -20px 40px black);
+    }
+  }
+}
+
+.filter-mix--sepia {
+  &:hover {
+    img {
+      filter: sepia(4%) drop-shadow(-10px -20px 40px black);
+    }
+  }
+}

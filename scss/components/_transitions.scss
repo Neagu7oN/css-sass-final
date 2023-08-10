@@ -1,0 +1,128 @@
+.transition-area {
+  background-color: #ccc;
+  position: relative;
+  display: block;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+
+  &:hover {
+    .transition-child {
+      left: calc(100% - 180px);
+      top: 0;
+    }
+
+    .transition-second-child {
+      left: calc(100% - 180px);
+      top: 0;
+    }
+
+    .transition-third-child {
+      left: calc(88% - 100px);
+      top: 20%;
+    }
+
+    .transition-fourth-child {
+      left: calc(100% - 70px);
+      top: 50%;
+    }
+
+    .transition-fifth-child {
+      left: calc(91.5% - 180px);
+      bottom: 19.6%;
+    }
+
+    .transition-sixth-child {
+      left: calc(91.5% - 180px);
+      bottom: 0;
+    }
+  }
+}
+
+.transition-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 1s;
+}
+
+.transition-second-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+}
+
+.transition-third-child {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+
+.transition-fourth-child {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.26, 0.81, 1, 0.12);
+  transition-delay: 1s;
+}
+
+.transition-fifth-child {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+
+.transition-sixth-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 3s;
+  transition-timing-function: steps(10, end);
+  transition-delay: 1s;
+  margin-bottom: 0;
+}
+
+img.memone {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+img.memtwo {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+img.neo {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+
+img.htmlcss {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
+
+img.fans {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
